@@ -1,0 +1,26 @@
+/* Спецификация */
+:root{
+    --red-color: #ff3a2d;
+    --text-darkgrey: #808080;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+img, ul li{
+    display: block;
+}
+.title{
+    font-family: Sacramento, sans-serif;
+    font-size: .8rem;
+    text-align: center;
+    color: var(--red-color);
+}
+.subtitle{
+    font-family: Sacramento, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #222222;
+}
