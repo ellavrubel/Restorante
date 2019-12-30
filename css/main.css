@@ -13,13 +13,16 @@ img, ul li{
 }
 .title{
     font-family: Sacramento, sans-serif;
-    font-size: var(--fontSize);
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: .02rem;
     text-align: center;
     color: var(--red-color);
 }
 .subtitle{
-    font-family: Sacramento, sans-serif;
-    font-size: 2rem;
+    font-family: Lobster Two, sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
     text-align: center;
     color: #222222;
 }
@@ -29,14 +32,14 @@ img, ul li{
 }
 a, a:hover, a:active{
     text-decoration: none;
+    cursor: pointer;
 }
 /* ----Header---- */
 .header{
     background-image: url("../img/head-back.png");
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
-    width: 100vw;
+    background-size: 100vw 100vh;
     height: 95vh;
 }
 .welcome-wrapper{
@@ -86,8 +89,8 @@ input[type="text"]::-webkit-input-placeholder {
     font-family: Source Sans Pro, sans-serif;
     color: var(--text-darkgrey);
     font-size: var(--fontSize);
-    padding-left:.7rem;
-
+    position: relative;
+    top:-3px; left: .7rem;
 }
 
 input[type="text"]:-ms-input-placeholder {
@@ -95,7 +98,8 @@ input[type="text"]:-ms-input-placeholder {
     font-family: Source Sans Pro, sans-serif;
     color: var(--text-darkgrey);
     font-size: var(--fontSize);
-    padding-left: .7rem;
+    position: relative;
+    top:-3px; left: .7rem;
 }
 
 input[type="text"]::-ms-input-placeholder {
@@ -103,7 +107,8 @@ input[type="text"]::-ms-input-placeholder {
     font-family: Source Sans Pro, sans-serif;
     color: var(--text-darkgrey);
     font-size: var(--fontSize);
-    padding-left: .7rem;
+    position: relative;
+    top:-3px; left: .7rem;
 }
 
 input[type="text"]::placeholder {
@@ -111,7 +116,8 @@ input[type="text"]::placeholder {
     font-family: Source Sans Pro, sans-serif;
     color: var(--text-darkgrey);
     font-size: var(--fontSize);
-    padding-left: .7rem;
+    position: relative;
+    top:-3px; left: .7rem;
 }
 .header__delivery{
     color: #fff;
@@ -127,6 +133,9 @@ input[type="text"]::placeholder {
 }
 .header__list-item img{
     display: inline-block;
+    position: relative;
+    top: -4.5px;
+    left: 0;
 }
 .header__menu{
     background-color: #fff;
@@ -150,20 +159,112 @@ input[type="text"]::placeholder {
  a.header__list-item_btn {
      color: #fff;
      display: inline-block;
-     padding:0 1rem;
+     padding: .2rem 1rem;
      background: var(--red-color);
-
+     border-radius: 0 .3rem;
  }
+.header__text{
+    padding-top: 8.6rem;
+}
+.title_header{
+    color: #00c5d2;
+}
+.header__text-description, .subtitle_header{
+    color: #fff;
+}
+.header__text-description{
+    width: 38rem;
+    text-align: center;
+    margin: 0 auto;
+    font-size: var(--fontSize);
+}
+.header__buttons{
+     width: 30rem;
+     margin: 3rem auto;
+ }
+.header__buttons a {
+    color: #fff;
+    font-size: var(--fontSize);
+    padding: .6rem 2rem;
+    border: 1px solid var(--red-color);
+}
+.header__buttons a:hover{
+    color: #fff;
+}
+.btn_seemenu{
+    margin-left: 2.8rem;
+    background-color: var(--red-color);
+}
+.btn_aboutus{
+    margin-left: 5.6rem;
+}
+.header__dots{
+    width: 3rem;
+    margin: 0 auto;
+}
+.header__dots img{
+    display: inline-block;
+    padding-top: 4rem;
+}
+.reddot{
+    position: relative;
+    top: -.31rem; left:0;
+}
 
-
-
-
-
-
-
-
-
-
+/*---- Log in Modal Window ----*/
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 1000;
+}
+.popup__overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.73);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginform-wrapper{
+    border: 1px solid var(--text-darkgrey);
+    padding: 2rem;
+}
+.login-btn{
+    margin-top: .7rem;
+}
+.btn-group-sm >.btn, .btn-sm {
+    padding: .45rem .5rem;
+    font-size: 1.1rem;
+}
+.star{
+    color: var(--red-color);
+}
+.popup__body{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.82);
+    padding: 30px;
+    position: relative;
+}
+.popup__close{
+    position: absolute;
+    color: #00c5d2;
+    top: 0;
+    right:1%;
+    font-size: 30px;
+}
+.popup__close:hover{
+    color: #00c5d2;
+}
+.window{
+    display: block;
+}
 
 
 
