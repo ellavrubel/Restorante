@@ -211,7 +211,7 @@ input[type="text"]::placeholder {
     top: -.31rem; left:0;
 }
 
-/*---- Log in Modal Window ----*/
+/*---- Modal Window ----*/
 .popup{
     position: fixed;
     top: 0;
@@ -232,22 +232,8 @@ input[type="text"]::placeholder {
     justify-content: center;
     align-items: center;
 }
-.loginform-wrapper{
-    border: 1px solid var(--text-darkgrey);
-    padding: 2rem;
-}
-.login-btn{
-    margin-top: .7rem;
-}
-.btn-group-sm >.btn, .btn-sm {
-    padding: .45rem .5rem;
-    font-size: 1.1rem;
-}
-.star{
-    color: var(--red-color);
-}
 .popup__body{
-    width: 400px;
+    width: 50vw;
     background-color: rgba(255, 255, 255, 0.82);
     padding: 30px;
     position: relative;
@@ -266,10 +252,33 @@ input[type="text"]::placeholder {
     display: block;
 }
 
+/* ---- Log in----*/
 
+.register-form-wrapper{
+    border: 1px solid var(--text-darkgrey);
+    padding: 2rem;
+}
+.login-btn{
+    margin-top: .7rem;
+}
+.btn-group-sm >.btn, .btn-sm {
+    padding: .45rem .5rem;
+    font-size: 1.1rem;
+}
+.star{
+    color: var(--red-color);
+}
+.checkbox-wrapper{
+    margin-top: 2.8rem;
+}
 
+/*----------------------*/
 
+/*---- Reservation----*/
 
+.reserv_title{
+    font-size: 2rem;
+}
 
 
 
