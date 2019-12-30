@@ -1,4 +1,6 @@
+
 /* Спецификация */
+
 :root{
     --red-color: #ff3a2d;
     --text-darkgrey: #808080;
@@ -34,7 +36,9 @@ a, a:hover, a:active{
     text-decoration: none;
     cursor: pointer;
 }
+
 /* ----Header---- */
+
 .header{
     background-image: url("../img/head-back.png");
     background-repeat: no-repeat;
@@ -65,7 +69,6 @@ a, a:hover, a:active{
     background: #bfbdbb;
     border: none;
 }
-
 .header__search-btn{
     width: 1.875rem;
     height: 1.5rem;
@@ -81,8 +84,6 @@ a, a:hover, a:active{
     cursor: pointer;
     display: block;
     padding: 5px auto;
-
-
 }
 input[type="text"]::-webkit-input-placeholder {
     font-weight: 600;
@@ -92,7 +93,6 @@ input[type="text"]::-webkit-input-placeholder {
     position: relative;
     top:-3px; left: .7rem;
 }
-
 input[type="text"]:-ms-input-placeholder {
     font-weight: 600;
     font-family: Source Sans Pro, sans-serif;
@@ -101,7 +101,6 @@ input[type="text"]:-ms-input-placeholder {
     position: relative;
     top:-3px; left: .7rem;
 }
-
 input[type="text"]::-ms-input-placeholder {
     font-weight: 600;
     font-family: Source Sans Pro, sans-serif;
@@ -110,7 +109,6 @@ input[type="text"]::-ms-input-placeholder {
     position: relative;
     top:-3px; left: .7rem;
 }
-
 input[type="text"]::placeholder {
     font-weight: 600;
     font-family: Source Sans Pro, sans-serif;
@@ -211,6 +209,67 @@ input[type="text"]::placeholder {
     top: -.31rem; left:0;
 }
 
+/*-----Welcome----*/
+
+.welcome-text__wrapper{
+    flex: 0 0 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*---- Modal Window ----*/
 .popup{
     position: fixed;
@@ -279,7 +338,7 @@ input[type="text"]::placeholder {
 .reserv_title{
     font-size: 2rem;
 }
-
+/*----------------------*/
 
 
 
