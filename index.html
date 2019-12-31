@@ -89,7 +89,7 @@
 
 <section class="welcome">
     <div class="container">
-        <div class="d-flex justify-content-between">
+        <div class="d-flex justify-content-between welcome__all-wrapper">
             <div class="welcome-text__wrapper">
                 <p class="welcome__title">
                     Wellcome
@@ -110,13 +110,37 @@
                     <img src="img/Matthew.png" alt="Matthew T. Slaan">
                 </p>
             </div>
-<!--            <div class="bookTable__wrapper">-->
+            <div class="bookTable__wrapper">
+                <div class="bookTable__redPlace">
+                    <p class="welcome__bookTable">
+                        <img src="img/book_table.png" alt="">
+                                            Book Table
+                        <img src="img/book_table.png" alt="">                             </p>
+                    <form class="welcome-form__wrapper">
 
-<!--                <p class="wellcome__bookTable">-->
-<!--                    <img src="img/book_table.png" alt="">-->
-<!--                    Book Table-->
-<!--                    <img src="img/book_table.png" alt="">                             </p>-->
-<!--                <form class="welcome-form__wrapper">-->
+                        <label for="YourName"></label>
+                        <input class="form-control form-control" type="text" id="YourName" name="customerName" placeholder="Your Name*" required>
+
+                        <label for="totalPeople"></label>
+                        <input class="form-control form-control" type="text" name="digital" id="totalPeople" placeholder="Total People">
+
+                        <label for="regDate"></label>
+                        <input class="form-control form-control" type="text" name="regDate" id="regDate" placeholder="Date: 24.12.2020">
+
+                        <label for="regTime"></label>
+                        <input class="form-control form-control" type="text" name="regTime" id="regTime" placeholder="Time: 04:00 pm">
+
+                        <label for="tableN"></label>
+                        <input class="form-control form-control" type="text" name="tableN" id="tableN" placeholder="Table No">
+
+                        <button type="reset" class="btn btn-secondary btn-sm btn-block login-btn">Register</button>
+
+                    </form>
+
+                </div>
+
+<!--
+                <form class="welcome-form__wrapper">-->
 
 <!--                    <label for="YourName"></label>-->
 <!--                    <input class="form-control form-control" type="text" id="YourName" name="customerName" placeholder="Your Name*" required>-->
@@ -136,7 +160,7 @@
 <!--                    <button type="button" class="btn btn-secondary btn-sm btn-block login-btn">Register</button>-->
 
 <!--                    </form>-->
-<!--            </div>-->
+            </div>
 
             </div>
         </div>

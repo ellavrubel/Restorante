@@ -211,15 +211,36 @@ input[type="text"]::placeholder {
 
 /*-----Welcome----*/
 
-.welcome-text__wrapper{
-    flex: 0 0 60%;
+.welcome__all-wrapper{
+    padding-top: 8.5rem;
+    padding-bottom: 11rem;
 }
-
-
-
-
-
-
+.welcome-text__wrapper{
+    flex: 0 0 50%;
+    padding-top: 2rem;
+}
+.bookTable__wrapper{
+    flex:0 0 40%
+}
+.bookTable__redPlace{
+    min-height: 30.8rem;
+    width: 20.25rem;
+    background-color: var(--red-color);
+}
+.welcome__bookTable img{
+    display: inline-block;
+}
+.welcome-form__wrapper{
+    padding: 1rem;
+}
+p.welcome__bookTable{
+    padding-top: 4rem;
+    margin: 0 auto;
+    text-align: center;
+}
+button.btn.btn-secondary.btn-sm.btn-block.login-btn {
+    margin-bottom: 3rem;
+}
 
 
 
