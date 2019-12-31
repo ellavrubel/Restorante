@@ -217,10 +217,12 @@ input[type="text"]::placeholder {
 }
 .welcome-text__wrapper{
     flex: 0 0 50%;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 .bookTable__wrapper{
-    flex:0 0 40%
+    flex:0 0 40%;
+    position: relative;
+
 }
 .bookTable__redPlace{
     min-height: 30.8rem;
@@ -237,17 +239,71 @@ p.welcome__bookTable{
     padding-top: 4rem;
     margin: 0 auto;
     text-align: center;
+    font-family: Lobster Two, sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #fff;
 }
 button.btn.btn-secondary.btn-sm.btn-block.login-btn {
     margin-bottom: 3rem;
+    background: linear-gradient(to right, #34bfe7, #0af2ee);
+}
+.welcome__greenLeave img{
+    display: block;
+    position: absolute;
+    bottom: -6.5rem;
+    right: -.1rem;
+    z-index: -2;
+}
+.welcome__title{
+    font-family:Lobster Two, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: var(--red-color);
+    font-size: 3rem;
+    margin-bottom: 0;
+    line-height: 0.8;
+}
+.welcome__subtitle{
+    font-family:Lobster Two, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.8rem;
+}
+.welcome__arrow img{
+    display: block;
+    padding-bottom: 1.5rem;
 }
 
+.welcome__text{
+    font-family: Poppins,sans-serif;
+    font-size: var(--fontSize);
+    color: var(--text-darkgrey);
+    line-height: 2;
+}
+.welcome__signature img{
+    display: block;
+    padding-top: 5rem;
+}
+input[type="text"]::-webkit-input-placeholder {
+    color: var(--text-darkgrey);
+    font-weight: normal;
+}
 
+input[type="text"]:-ms-input-placeholder {
+    color: var(--text-darkgrey);
+    font-weight: normal;
+}
 
+input[type="text"]::-ms-input-placeholder {
+    color: var(--text-darkgrey);
+    font-weight: normal;
+}
 
-
-
-
+input[type="text"]::placeholder {
+    color: var(--text-darkgrey);
+    font-weight: normal;
+}
 
 
 
