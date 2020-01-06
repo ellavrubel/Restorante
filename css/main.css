@@ -16,6 +16,7 @@ img, ul li{
 .title{
     font-family: Sacramento, sans-serif;
     font-size: 2rem;
+    font-weight: 600;
     letter-spacing: .02rem;
     text-align: center;
     color: var(--red-color);
@@ -492,7 +493,10 @@ img.online{
 .mainDish__subtitle{
     padding: 1rem 0;
 }
-
+.mainDish__menu-wrapper{
+    padding-top: 5.625rem;
+    padding-bottom: 4.625rem;
+}
 .menu__item{
     flex: 0 0 35%;
     margin-bottom: 3.125rem;
@@ -503,12 +507,39 @@ img.online{
 .mainDish__picture2{
     width: 90%;
 }
-
-
-
-
-
-
+.mainDish__menu-name a{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    color: #4e4e4e;
+    font-size: 1.2rem;
+}
+li.active a{
+    color: var(--red-color);
+    border-bottom: 1px solid var(--red-color);
+}
+.tabs__content{
+    display: none !important;
+}
+.tabs__content.active{
+    display: flex !important;
+}
+.mainDish__btn{
+    padding-top: 4.5rem;
+    padding-bottom: 12.5rem;
+    width:11.8rem;
+    height: 6rem;
+    margin: 0 auto;
+}
+.mainDish__btn a{
+    font-size: var(--fontSize);
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    padding: 1.3rem 2.5rem;
+    background-color: var(--red-color);
+    border-radius: .5rem;
+}
 
 
 
