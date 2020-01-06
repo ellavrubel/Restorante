@@ -489,9 +489,13 @@ img.online{
 
 /* ----- MainDish -----*/
 
+.mainDish__subtitle{
+    padding: 1rem 0;
+}
 
-
-
+.menu__item{
+    flex: 0 0 40%;
+}
 
 
 
