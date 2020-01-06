@@ -36,5 +36,20 @@ $(document).ready(function () {
                 items:6
             }
         }
-    })
+    });
+
+    //   Spoiler
+
+        $('.services__block-title').click(function (event) {
+
+            if($('.services__block').hasClass('one')){
+                $('.services__block-title').not($(this)).removeClass('active');
+                $('.services__block-text').not($(this).next()).slideUp(500);
+            }
+                $(this).toggleClass('active').next().slideToggle(500);
+
+
+        })
+
+
 });

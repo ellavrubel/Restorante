@@ -15,7 +15,7 @@ img, ul li{
 }
 .title{
     font-family: Sacramento, sans-serif;
-    font-size: 1.7rem;
+    font-size: 2rem;
     letter-spacing: .02rem;
     text-align: center;
     color: var(--red-color);
@@ -54,6 +54,7 @@ a, a:hover, a:active{
 }
 .welcome{
     margin-left: 10%;
+    padding-bottom: 6rem;
 }
 .header__welcome{
     color: #fff;
@@ -129,7 +130,6 @@ input[type="text"]::placeholder {
 }
 .header__login img{
     display: block;
-    height: 50%;
 }
 .header__list-item img{
     display: inline-block;
@@ -333,7 +333,7 @@ input[type="text"]::placeholder {
     padding-top: 2rem;
 }
 .futureItem__carousel-wrapper{
-    padding-top: 4.3rem;
+    padding-top: 2.3rem;
     padding-bottom: 15rem;
     position: relative;
     width: 90vw;
@@ -369,13 +369,134 @@ input[type="text"]::placeholder {
 
 /*-----Services----*/
 
+.services{
+    font-family: Poppins, sans-serif;
+}
 .services__text-wrapper{
     flex: 0 0 60%;
-    text-align: left;
+}
+.services__text{
+    padding-top: 5rem;
 }
 .services__woman-wrapper{
     flex: 0 0 40%;
 }
+.futureItem__text_services{
+    text-align: left;
+}
+.services__arrow{
+    margin-bottom: 2.5rem;
+}
+.services__description, .services__block-text{
+    color: var(--text-darkgrey);
+}
+.services__block-title{
+    font-weight: bold;
+    color: #222;
+    position: relative;
+    cursor: pointer;
+    margin: 0 0 1rem 1rem;
+    padding-top: 1.5rem;
+}
+.services__block-title:before,
+.services__block-title:after{
+    content: "";
+    width: .8rem;
+    height: 1px;
+    background-color: var(--text-darkgrey);
+    position: absolute;
+    top: 2rem;
+    transition: all 0.5s ease;
+}
+.services__block-title:before{
+    transform: rotate(-40deg);
+    right: 10%;
+}
+.services__block-title:after{
+    transform: rotate(40deg);
+    right: 11.68%;
+}
+.services__block-title.active:before,
+.services__block-title.active:after{
+    background-color: #00c5d2;
+}
+.services__block-title.active, li.services__block-item.active{
+    color: #00c5d2;
+}
+.services__block-title.active:before{
+    transform: rotate(40deg);
+}
+.services__block-title.active:after{
+    transform: rotate(-40deg);
+}
+.services__block-text{
+    display: none;
+    margin-bottom: 1rem;
+}
+
+/*----Delivery----*/
+
+.delivery{
+    background-image: url("../img/HomeDeliv/backgr.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100vw 100vh;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 11.25rem;
+}
+.delivery__card-wrapper{
+    padding-top: 5.6rem;
+    text-align: center;
+}
+.delivery__subtitle{
+    color: #fff;
+    padding: 1rem 0 1rem;
+}
+.delivery__card1, .delivery__card2, .delivery__card3{
+    flex: 0 0 30%;
+    height: 14rem;
+    background-color: #fff;
+    padding: 3.25rem 2rem 3rem;
+    position: relative;
+}
+.card1__title{
+    font-family: "Lobster Two", sans-serif;
+    color: var(--red-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.card1__text{
+    color: var(--text-darkgrey);
+    font-size: var(--fontSize);
+}
+img.select, img.online, img.hand{
+    display: block;
+    position: absolute;
+    box-shadow:0 0 5px var(--text-darkgrey);
+    background-color: #fff;
+    border-radius: 0 1.2rem;
+    top: -2rem; left: 37%;
+}
+img.select{
+    padding: .3rem .6rem;
+}
+img.online{
+    padding: .4rem .6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
