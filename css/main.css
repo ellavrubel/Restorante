@@ -494,10 +494,15 @@ img.online{
 }
 
 .menu__item{
-    flex: 0 0 40%;
+    flex: 0 0 35%;
+    margin-bottom: 3.125rem;
 }
-
-
+.mainDish__picture{
+    margin-right: 1rem;
+}
+.mainDish__picture2{
+    width: 90%;
+}
 
 
 
