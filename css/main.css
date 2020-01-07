@@ -544,29 +544,81 @@ li.active a{
 
 /*----Stuff-----*/
 
+.stuff{
+    position: relative;
+}
 .stuff__carousel-wrap{
     padding-bottom: 16rem;
     padding-top: 5rem;
-
 }
 .stuff__first, .stuff__second, .stuff__third{
     border: 3px solid rgba(214, 214, 214, 0.75);
     box-shadow: 0 0 2px 2px rgba(188, 188, 188, 0.16);
-
 }
-.owl-carousel.slider2 .owl-item img {
+.owl-carousel.slider2 .owl-item img.human {
     display: block;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 .stuff__text-wrap{
-    margin: 2rem auto;
+   padding: 3rem;
+    font-family: "Lobster Two", sans-serif;
+}
+.stuff__name{
+    text-align: center;
+    font-size: 1.4rem;
+    color: #00c5d2;
+}
+.occupation{
+    font-size: 1.2rem;
+    color: var(--text-darkgrey);
 }
 .stuff__img-wrap{
-    background-color: rgba(0, 197, 210, 0.53);
+    background: linear-gradient(to right, #34bfe7, #0af2ee);
 }
-.stuff__img-wrap img{
-    opacity: ;
+.stuff__second{
+    position: relative;
+}
+.owl-carousel.slider2 .owl-item img.photo__sign1, .owl-carousel.slider2 .owl-item img.photo__sign2{
+    position: absolute;
+    width:20%;
+    opacity: unset;
+}
+.owl-carousel.slider2 .owl-item img.photo__sign1{
+    top: 25%;left: 30%;
+}
+.owl-carousel.slider2 .owl-item img.photo__sign2{
+    top: 25%; right: 20%;
+}
+.owl-carousel.slider2 .owl-item .stuff__img-wrap img{
+    opacity: 20%;
+}
+.stuff__social-wrap i, span.stuff__social-item{
+    color: var(--text-darkgrey);
+    font-size: 1.1rem;
+}
+span.stuff__social-item{
+    position: relative;
+    top: -5px;
+}
+.stuff__social-wrap{
+    padding-top: 1rem;
+}
+.owl-carousel.slider2 .owl-nav button.owl-next{
+    top: 45%; right: -8%;
+}
+.owl-carousel.slider2 .owl-nav button.owl-prev {
+    top: 45%; left: -8%;
+}
+.stuff__blue-circle img{
+    position: absolute;
+}
+img.big-circle{
+    top: 10%; left: 22%;
+}
+img.small-circle{
+    bottom: 18%; right: 25%;
+    z-index: -4;
 }
 
 
@@ -592,7 +644,16 @@ li.active a{
 
 
 
-/*---- Modal Window ----*/
+
+
+
+
+
+
+
+
+
+    /*---- Modal Window ----*/
 .popup{
     position: fixed;
     top: 0;
