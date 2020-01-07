@@ -546,6 +546,7 @@ li.active a{
 
 .stuff{
     position: relative;
+
 }
 .stuff__carousel-wrap{
     padding-bottom: 16rem;
@@ -603,7 +604,7 @@ span.stuff__social-item{
 }
 .stuff__social-wrap{
     padding-top: 1rem;
-}
+ }
 .owl-carousel.slider2 .owl-nav button.owl-next{
     top: 45%; right: -8%;
 }
@@ -614,11 +615,12 @@ span.stuff__social-item{
     position: absolute;
 }
 img.big-circle{
-    top: 10%; left: 22%;
+    top: 5%; left: 12%;
 }
 img.small-circle{
-    bottom: 18%; right: 25%;
-    z-index: -4;
+    bottom: 18%; right: 15%;
+    z-index: -1;
+
 }
 
 
