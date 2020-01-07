@@ -1,20 +1,10 @@
 $(document).ready(function () {
 
-   // Modal Windows
 
-   $('a.LoginModal, a.header__list-item, a.header__list-item_btn').click(function (e) {
-       e.preventDefault();
-        var destinationPopup = $(this).attr('href');
-        $(destinationPopup).addClass('window');
 
-        $('.popup__close').click(function () {
-           $(destinationPopup).removeClass('window');
-        });
-   });
+    // Carousel N1
 
-    // Carousel
-
-    $('.owl-carousel').owlCarousel({
+    $('.owl-carousel.slider1').owlCarousel({
         loop:true,
         margin:20,
         dots: false,
@@ -62,8 +52,41 @@ $(document).ready(function () {
             .closest('section.mainDish').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
     });
 
+    // Carousel N2
+
+    $('.owl-carousel.slider2').owlCarousel({
+        loop:true,
+        margin:20,
+        dots: false,
+        nav:true,
+        navText:[
+            '<img src="img/FT_left-arrow.png" alt="Prev">',
+            '<img src="img/FT_right-arrow.png" alt="Next">'
+        ],
+        slideBy: 3,
+        smartSpeed: 1200,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            }
+        }
+    });
 
 
+    // Modal Windows
+
+    $('a.LoginModal, a.header__list-item, a.header__list-item_btn').click(function (e) {
+        e.preventDefault();
+        var destinationPopup = $(this).attr('href');
+        $(destinationPopup).addClass('window');
+
+        $('.popup__close').click(function () {
+            $(destinationPopup).removeClass('window');
+        });
+    });
 
 
 

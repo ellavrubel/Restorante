@@ -52,10 +52,11 @@ a, a:hover, a:active{
 }
 .welcome-wrapper{
     padding: var(--fontSize) 0 1.5rem;
+    /*height: 4rem;*/
 }
 .welcome{
     margin-left: 10%;
-    padding-bottom: 6rem;
+    /*padding-bottom: 6rem;*/
 }
 .header__welcome{
     color: #fff;
@@ -541,12 +542,32 @@ li.active a{
     border-radius: .5rem;
 }
 
+/*----Stuff-----*/
 
+.stuff__carousel-wrap{
+    padding-bottom: 16rem;
+    padding-top: 5rem;
 
+}
+.stuff__first, .stuff__second, .stuff__third{
+    border: 3px solid rgba(214, 214, 214, 0.75);
+    box-shadow: 0 0 2px 2px rgba(188, 188, 188, 0.16);
 
-
-
-
+}
+.owl-carousel.slider2 .owl-item img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+.stuff__text-wrap{
+    margin: 2rem auto;
+}
+.stuff__img-wrap{
+    background-color: rgba(0, 197, 210, 0.53);
+}
+.stuff__img-wrap img{
+    opacity: ;
+}
 
 
 
