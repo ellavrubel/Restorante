@@ -544,18 +544,20 @@ li.active a{
 
 /*----Stuff-----*/
 
-.stuff{
+.stuff {
     position: relative;
-
 }
 .stuff__carousel-wrap{
-    padding-bottom: 16rem;
+    margin-bottom: 16rem;
     padding-top: 5rem;
+    position: relative;
+    background: #fff;
 }
 .stuff__first, .stuff__second, .stuff__third{
     border: 3px solid rgba(214, 214, 214, 0.75);
     box-shadow: 0 0 2px 2px rgba(188, 188, 188, 0.16);
 }
+
 .owl-carousel.slider2 .owl-item img.human {
     display: block;
     width: 100%;
@@ -564,6 +566,7 @@ li.active a{
 .stuff__text-wrap{
    padding: 3rem;
     font-family: "Lobster Two", sans-serif;
+
 }
 .stuff__name{
     text-align: center;
@@ -579,6 +582,12 @@ li.active a{
 }
 .stuff__second{
     position: relative;
+    transform: scale(1) scaleZ(1);
+    transition: all 3s ease-in-out;
+}
+.stuff__second:hover{
+    transform: scale(1.1) scaleZ(.5);
+    transition: all 3s ease-in-out;
 }
 .owl-carousel.slider2 .owl-item img.photo__sign1, .owl-carousel.slider2 .owl-item img.photo__sign2{
     position: absolute;
@@ -588,6 +597,7 @@ li.active a{
 .owl-carousel.slider2 .owl-item img.photo__sign1{
     top: 25%;left: 30%;
 }
+
 .owl-carousel.slider2 .owl-item img.photo__sign2{
     top: 25%; right: 20%;
 }
@@ -604,31 +614,54 @@ span.stuff__social-item{
 }
 .stuff__social-wrap{
     padding-top: 1rem;
- }
+}
 .owl-carousel.slider2 .owl-nav button.owl-next{
     top: 45%; right: -8%;
 }
 .owl-carousel.slider2 .owl-nav button.owl-prev {
     top: 45%; left: -8%;
 }
-.stuff__blue-circle img{
+.stuff__blue-circle img {
     position: absolute;
-}
-img.big-circle{
-    top: 5%; left: 12%;
+    top: 5%;
+    left: 12%;
 }
 img.small-circle{
-    bottom: 18%; right: 15%;
+    position: absolute;
+    bottom: -10%;
+    right: -7%;
     z-index: -1;
-
 }
 
+/*-----Event-----*/
 
-
-
-
-
-
+.event__photo{
+    background-image: url("../img/events/backgr.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100vw 100vh;
+    height: 50rem;
+    position: relative;
+    margin-bottom: 30rem;
+}
+.event__video-btn img{
+    position: absolute;
+    top: 35%; left: 45%;
+}
+.event__red-text, .event__discription{
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+.event__red-text{
+    color: var(--red-color);
+    font-weight: 600;
+    padding-top: 4.5rem;
+}
+.event__discription{
+    font-size: var(--fontSize);
+    color: #a2a2a2;
+    padding-bottom: 4.5rem;
+}
 
 
 

@@ -76,6 +76,15 @@ $(document).ready(function () {
     });
 
 
+
+
+
+
+
+
+
+
+
     // Modal Windows
 
     $('a.LoginModal, a.header__list-item, a.header__list-item_btn').click(function (e) {
