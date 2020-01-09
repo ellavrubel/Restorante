@@ -734,16 +734,31 @@ img.small-circle{
     cursor: pointer;
 }
 
+/*----Feedback-----*/
 
+.feedback{
+    height: 70vh;
+    background-color: #ffe8e7;
+}
 
-
-
-
-
-
-
-
-
+.owl-carousel.slider3 .owl-item img{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+.owl-carousel.slider3 .owl-item .feedback__signature img{
+    width: 40%;
+}
+.slider3 .item{
+    height: 32.25rem;
+}
+.slider3 .item.item-text{
+    background-color: #fff;
+    /*border: 1px solid rgba(214, 214, 214, 0.75);*/
+    -webkit-box-shadow: 6px 5px 14px -4px rgba(184,178,184,1);
+    -moz-box-shadow: 6px 5px 14px -4px rgba(184,178,184,1);
+    box-shadow: 6px 5px 14px -4px rgba(184,178,184,1);
+}
 
 
 

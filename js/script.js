@@ -75,8 +75,26 @@ $(document).ready(function () {
         }
     });
 
+    // Carousel N2
 
-
+    $('.owl-carousel.slider3').owlCarousel({
+        loop: true,
+        margin: 10,
+        items: 2,
+        dots: false,
+        nav:true,
+        navText:[
+            '<img src="img/FT_left-arrow.png" alt="Prev">',
+            '<img src="img/FT_right-arrow.png" alt="Next">'
+        ],
+        slideBy: 3,
+        smartSpeed: 1200,
+        responsive:{
+            0: {
+                items: 2
+            }
+        }
+    });
 
 
 
