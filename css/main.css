@@ -634,7 +634,9 @@ img.small-circle{
 }
 
 /*-----Event-----*/
-
+.event{
+    position: relative;
+}
 .event__photo{
     background-image: url("../img/events/backgr.png");
     background-repeat: no-repeat;
@@ -648,6 +650,48 @@ img.small-circle{
     position: absolute;
     top: 35%; left: 45%;
 }
+.event__offer-wrap{
+    padding: 0;
+    position: absolute;
+    top: 60%; left: 22%;
+    z-index: 10;
+    background-color: #fff;
+    overflow: hidden;
+    width: 60%;
+}
+.event__offer {
+    border-bottom: 3px solid rgba(214, 214, 214, 0.75);
+    border-right: 2px solid rgba(214, 214, 214, 0.75);
+    border-left: 2px solid rgba(214, 214, 214, 0.75);
+    box-shadow: 2px 2px 5px 5px rgba(188, 188, 188, 0.16);
+    padding: 0;
+}
+.futureItem__text-event{
+    padding-top: 4.25rem;
+}
+.event__band-wrap{
+    -webkit-transform: rotate(-32deg);
+    -moz-transform: rotate(-32deg);
+    -ms-transform: rotate(-32deg);
+    -o-transform: rotate(-32deg);
+    transform: rotate(-32deg);
+    position: absolute;
+    top: 7%;
+    left: -3%;
+}
+.event__band{
+    background-color: var(--red-color);
+}
+.kids-entry-free{
+    width: 18.75rem;
+    padding: .5rem 0;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+
 .event__red-text, .event__discription{
     font-family: Poppins, sans-serif;
     text-align: center;
@@ -655,13 +699,60 @@ img.small-circle{
 .event__red-text{
     color: var(--red-color);
     font-weight: 600;
-    padding-top: 4.5rem;
+    padding-top: 3.5rem;
 }
 .event__discription{
     font-size: var(--fontSize);
     color: #a2a2a2;
     padding-bottom: 4.5rem;
+    width: 90%;
+    margin: 0 auto;
 }
+.event__info{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    padding-bottom: 6.25rem;
+}
+.event__sponsors-title, .event__time-title{
+    color: var(--red-color);
+}
+.event__time-text{
+    color: #222;
+    font-size: var(--fontSize);
+    padding-top: 1rem;
+}
+.event__time-title, .event__time-text{
+    padding-left: 1rem;
+}
+.event__sponsors, .event__time, .event__button{
+    flex: 0 0 20%;
+}
+.event__button a{
+    color: #fff;
+    padding: 1.1rem 3.6rem;
+    background-color: var(--red-color);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
