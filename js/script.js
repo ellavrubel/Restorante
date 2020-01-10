@@ -91,7 +91,7 @@ $(document).ready(function () {
         smartSpeed: 1200,
         responsive:{
             0: {
-                items: 2
+                items: 1
             }
         }
     });
