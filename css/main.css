@@ -804,7 +804,7 @@ img.small-circle{
     background-position: center center;
     background-size: 100vw 100%;
     height: 37.5rem;
-    margin-bottom: 11.8rem;
+
 }
 .letter__subscribe, .letter__email{
     flex: 0 0 45%;
@@ -869,16 +869,61 @@ img.letter__telegram {
 }
 
 
+/*----Blog----*/
 
+.blog{
+    font-family: Poppins, sans-serif;
+    background-color: #ffe8e7;
 
-
-
-
-
-
-
-
-
+}
+.blog__subtitle{
+    padding-top: 10.125rem;
+}
+.blog__arrow{
+    margin-bottom: 5.3rem;
+}
+.slider4-wrap{
+    padding-bottom: 12.5rem;
+}
+.blog__title{
+    font-weight: 600;
+    text-align: center;
+    padding-top: 3.5rem;
+}
+.blog__title-second{
+    color: #22cdd8;
+}
+.blog__text-wrap{
+    background-color: #fff;
+}
+.blog__text{
+    font-size: var(--fontSize);
+    color: var(--text-darkgrey);
+    padding: 0 2rem 2rem;
+}
+.blog__stat{
+    background-color: var(--red-color);
+    color:#fff;
+    font-size: .65rem;
+    height: 2.8rem;
+}
+p.blog__stat{
+    margin-bottom: 2rem;
+}
+.blog__stat i{
+    display: inline-block;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.blog__stat i.seen{
+    padding-left: 7rem;
+}
+.blog__second{
+    margin-bottom: 1rem;
+    -webkit-box-shadow: 0 2px 5px 1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0 2px 5px 1px rgba(0,0,0,0.25);
+    box-shadow: 0 2px 5px 1px rgba(0,0,0,0.25);
+}
 
 
 

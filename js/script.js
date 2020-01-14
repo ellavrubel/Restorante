@@ -75,7 +75,7 @@ $(document).ready(function () {
         }
     });
 
-    // Carousel N2
+    // Carousel N3
 
     $('.owl-carousel.slider3').owlCarousel({
         loop: true,
@@ -93,6 +93,49 @@ $(document).ready(function () {
             }
         }
     });
+
+    // Carousel N4
+
+    $('.owl-carousel.slider4').owlCarousel({
+        loop:true,
+        margin:20,
+        dots: false,
+        nav:true,
+        navText:[
+            '<img src="img/blog/left.png" alt="Left">',
+            '<img src="img/blog/right/png" alt="Right">'
+        ],
+        slideBy: 3,
+        smartSpeed: 1200,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            }
+
+        }
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
