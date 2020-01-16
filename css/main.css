@@ -1076,24 +1076,100 @@ textarea[type="text"]::placeholder {
     background-size: 100vw 100%;
     height: 28.45rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer__instagram{
+    flex: 0 0 28%;
+}
+.instagram__photo-item {
+    margin-right: .4rem;
+    margin-bottom: .4rem;
+}
+.footer__social{
+    padding-top: 2.25rem;
+}
+.footer__social i{
+    color: var(--text-darkgrey);
+    padding-right: 1.3rem;
+}
+.instagram__title{
+    font-family: "Lobster Two", sans-serif;
+    font-size: 1.8rem;
+}
+.footer__intro {
+    flex: 0 0 35%;
+    text-align: center;
+}
+img.footer__logo{
+    margin: 3.3rem auto 1.3rem;
+}
+.intro__text{
+    color: #9d9797;
+    line-height: 2;
+    font-size: var(--fontSize);
+}
+.footer__tag{
+    flex: 0 0 28%;
+}
+.footer__tag-item{
+    padding: .4rem 1.3rem;
+    font-family: Poppins, sans-serif;
+    font-size: var(--fontSize);
+    font-weight: 600;
+    color: #3f3f3f;
+    background-color: #fff;
+    margin: 0 .65rem .65rem 0;
+}
+.footer__search{
+    width: 100%;
+    position: relative;
+}
+.footer__input input{
+    border: none;
+    padding: .2rem 0 .3rem 8px;
+    width: 100%;
+}
+.search__photo{
+    position: absolute;
+    bottom: 1px;right: 0;
+}
+.footer .footer__tag .footer__search .footer__input input[type="search"]::-webkit-input-placeholder {
+    font-family: Poppins, sans-serif;
+    color: var(--text-darkgrey);
+    font-size: var(--fontSize);
+    font-weight: 500;
+}
+.footer .footer__tag .footer__search .footer__input input[type="search"]:-ms-input-placeholder {
+    font-family: Poppins, sans-serif;
+    color: var(--text-darkgrey);
+    font-size: var(--fontSize);
+    font-weight: 500;
+}
+.footer .footer__tag .footer__search .footer__input input[type="search"]::-ms-input-placeholder {
+    font-family: Poppins, sans-serif;
+    color: var(--text-darkgrey);
+    font-size: var(--fontSize);
+    font-weight: 500;
+}
+.footer .footer__tag .footer__search .footer__input input[type="search"]::placeholder {
+    font-family: Poppins, sans-serif;
+    color: var(--text-darkgrey);
+    font-size: var(--fontSize);
+    font-weight: 500;
+}
+.footer__tag, .footer__instagram{
+    padding-top: 6rem;
+}
+.footer__link{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    font-size: var(--fontSize);
+}
+span.usefull__link{
+    color: #00c5d2;
+}
+a.footer__link-item{
+    color: #000;
+    padding-left: 2.25rem;
+}
 
 
 
