@@ -102,8 +102,8 @@ $(document).ready(function () {
         dots: false,
         nav:true,
         navText:[
-            '<img src="img/blog/left.png" alt="Left">',
-            '<img src="img/blog/right/png" alt="Right">'
+            '<img src="img/blog/left.png" alt="left">',
+            '<img src="img/blog/right.png" alt="right">'
         ],
         slideBy: 3,
         smartSpeed: 1200,

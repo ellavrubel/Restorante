@@ -874,7 +874,16 @@ img.letter__telegram {
 .blog{
     font-family: Poppins, sans-serif;
     background-color: #ffe8e7;
-
+}
+.blog__first, .blog__second, .blog__third{
+    position: relative;
+}
+.owl-carousel.slider4 .owl-item img.blog__date{
+    width: 25%;
+}
+img.blog__date{
+    position: absolute;
+    top: 0; left: 37%;
 }
 .blog__subtitle{
     padding-top: 10.125rem;
@@ -924,6 +933,120 @@ p.blog__stat{
     -moz-box-shadow: 0 2px 5px 1px rgba(0,0,0,0.25);
     box-shadow: 0 2px 5px 1px rgba(0,0,0,0.25);
 }
+.owl-carousel.slider4 .owl-nav button.owl-next{
+    top: 45%; right: -4%;
+}
+.owl-carousel.slider4 .owl-nav button.owl-prev {
+    top: 45%; left: -4%;
+}
+
+/*----Contact----*/
+
+.contact__subtitle{
+    padding-top: 11.75rem;
+}
+.contact__map{
+    margin-bottom: 11rem;
+}
+
+.contact__openHours{
+    flex: 0 0 30%;
+}
+.contact__info-wrap{
+    padding-bottom: 9rem;
+    font-family: Poppins, sans-serif;
+}
+.contact__message{
+    flex: 0 0 50%;
+}
+.openHours__subtitle{
+    text-align: left;
+}
+.openHours__arrow{
+    padding-bottom: 2.5rem;
+}
+span.day{
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 1.2rem;
+}
+span.hour{
+    color: var(--text-darkgrey);
+}
+.contact__message-subtitle{
+    text-align: left;
+}
+textarea.contact__textarea{
+    height: calc(5rem + 5.5vh);
+    resize: none;
+}
+.contact__button{
+    padding-top: 2.8rem;
+}
+.contact__button button{
+    width: 7.6rem;
+    height: 2.625rem;
+    display: block;
+    background-color: #ff756c;
+    color: #fff;
+    border: none;
+}
+textarea[type="text"]::-webkit-input-placeholder {
+   color: #888;
+    font-size: .8rem;
+    text-indent: 1rem;
+    padding-top: .6rem;
+}
+
+textarea[type="text"]:-ms-input-placeholder {
+   color: #888;
+    font-size: .8rem;
+    text-indent: 1rem;
+    padding-top: .6rem;
+}
+
+textarea[type="text"]::-ms-input-placeholder {
+   color: #888;
+    font-size: .8rem;
+    text-indent: 1rem;
+    padding-top: .6rem;
+}
+
+textarea[type="text"]::placeholder {
+   color: #888;
+    font-size: .8rem;
+    text-indent: 1rem;
+    padding-top: .6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
