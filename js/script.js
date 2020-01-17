@@ -22,6 +22,9 @@ $(document).ready(function () {
             600:{
                 items:3
             },
+            775:{
+                items:4
+            },
             1000:{
                 items:6
             }
