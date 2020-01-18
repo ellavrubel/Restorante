@@ -1219,8 +1219,8 @@ a.footer__link-item{
     }
 }
 
-@media screen and (max-width: 992px){
-    img.header__logo{
+@media screen and (max-width: 992px) {
+    img.header__logo {
         top: -55%;
     }
     .header__welcome {
@@ -1230,10 +1230,10 @@ a.footer__link-item{
         padding-top: 3.5rem;
         padding-bottom: 6rem;
     }
-    .title{
+    .title {
         font-size: 1.5rem;
     }
-    .subtitle{
+    .subtitle {
         font-size: 1rem;
     }
     .welcome__title {
@@ -1258,26 +1258,28 @@ a.footer__link-item{
     .owl-carousel .owl-nav button.owl-prev {
         left: -6%;
     }
-    .services__woman-wrapper img{
+    .services__woman-wrapper img {
         height: 80%;
         margin-left: 0;
+        position: relative;
+        left: -13%;
     }
     .services__text {
         padding-top: 2rem;
     }
-    .services__block{
+    .services__block {
         width: 70%;
         font-size: var(--fontSize);
     }
-    .services__block-title{
+    .services__block-title {
         margin: 0;
     }
     .services__block-title:before,
-    .services__block-title:after{
+    .services__block-title:after {
         top: 2rem;
 
     }
-    .services__block-title:before{
+    .services__block-title:before {
         transform: rotate(-40deg);
         right: -10%;
     }
@@ -1292,7 +1294,34 @@ a.footer__link-item{
         padding-bottom: 4.5rem;
     }
 
+    .services__wrapper {
+        max-height: fit-content;
+    }
+    .card1__title {
+        font-size: 1rem;
+        margin: .2rem;
+    }
+    .card1__text {
+        text-align: justify;
+        letter-spacing: -.5px;
+        margin: 0;
+    }
+    img.select {
+        left: 30%;
+    }
+    .delivery{
+        margin-bottom: 4rem;
+    }
+    .mainDish__menu-wrapper {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .mainDish__photo-wrap img{
+        width: 80%;
+    }
 }
+
+
 
 
 

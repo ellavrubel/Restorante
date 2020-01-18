@@ -121,8 +121,8 @@ $(document).ready(function () {
         }
     });
 
-
-
+    // mainDish четные элементы
+    $('.mainDish__photo-wrap .menu__item:odd').css('margin-left', '5rem');
 
 
 
