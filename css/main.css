@@ -1223,6 +1223,9 @@ a.footer__link-item{
     img.header__logo {
         top: -55%;
     }
+    .header {
+        height: 75vh;
+    }
     .header__welcome {
         font-size: .5rem;
     }
@@ -1249,8 +1252,7 @@ a.footer__link-item{
         padding-top: 1rem;
     }
     .welcome__greenLeave img {
-        bottom: -5rem;
-        right: -7rem;
+        display: none;
     }
     .owl-carousel .owl-nav button.owl-next {
         right: -6%;
@@ -1293,9 +1295,8 @@ a.footer__link-item{
     .futureItem__carousel-wrapper {
         padding-bottom: 4.5rem;
     }
-
     .services__wrapper {
-        max-height: fit-content;
+        max-height: 40rem;
     }
     .card1__title {
         font-size: 1rem;
@@ -1372,9 +1373,26 @@ a.footer__link-item{
     }
     .event__button{
         flex: 0 0 30%;
-
     }
-
+    .event__sponsors{
+        margin-left: 4rem;
+    }
+    .event__photo{
+        margin-bottom: 8rem;
+    }
+    .feedback__title{
+        padding-top: 4rem;
+    }
+    .feedback{
+        height: 70vh;
+    }
+    .slider3 .item-img img{
+        height: 100%;
+    }
+    .quote {
+        font-size: 7rem;
+        top: -10%;
+    }
 }
 
 
