@@ -1231,7 +1231,7 @@ a.footer__link-item{
         padding-bottom: 6rem;
     }
     .title {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
     .subtitle {
         font-size: 1rem;
@@ -1319,7 +1319,64 @@ a.footer__link-item{
     .mainDish__photo-wrap img{
         width: 80%;
     }
+    .mainDish__menu-wrapper ul{
+        padding: 0;
+    }
+    .mainDish__menu-name a {
+        font-size: 1rem;
+    }
+    .mainDish__btn {
+        padding-top: 2.5rem;
+        padding-bottom: 6.5rem;
+    }
+    .stuff__carousel-wrap {
+        margin-bottom: 6rem;
+        padding-top: 2.5rem;
+    }
+    .stuff__blue-circle img {
+        top: 2%;
+        left: 0;
+    }
+    .owl-carousel.slider2 .owl-nav button.owl-prev {
+        left: -4%;
+    }
+    .owl-carousel.slider2 .owl-nav button.owl-next {
+        right: -4%;
+    }
+    .event__video-btn img {
+        left: 35%;
+        top: 20%;
+    }
+    .event__offer-wrap {
+        top: 45%;
+        left: 10%;
+        width: 80%;
+    }
+    .event__band-wrap {
+        left: -6%;
+    }
+    .futureItem__text-event {
+        padding-top: 2.25rem;
+    }
+    .event__red-text {
+        padding: 1.5rem 0;
+        width: 60%;
+        margin: 0 auto;
+        font-size: var(--fontSize);
+    }
+    .event__info {
+        padding-bottom: 2.25rem;
+    }
+    .event__sponsors-logo img{
+        margin-bottom: .5rem;
+    }
+    .event__button{
+        flex: 0 0 30%;
+
+    }
+
 }
+
 
 
 

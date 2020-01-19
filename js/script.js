@@ -55,7 +55,7 @@ $(document).ready(function () {
             .closest('section.mainDish').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
     });
 
-    // Carousel N2
+    // Carousel N2 - Awesome Team
 
     $('.owl-carousel.slider2').owlCarousel({
         loop:true,
@@ -73,6 +73,9 @@ $(document).ready(function () {
                 items:1
             },
             600:{
+                items:2
+            },
+            992:{
                 items:3
             }
         }
@@ -121,8 +124,20 @@ $(document).ready(function () {
         }
     });
 
-    // mainDish четные элементы
-    $('.mainDish__photo-wrap .menu__item:odd').css('margin-left', '5rem');
+    // mainDish нечетные элементы
+
+    function mainDishPhotoFunction() {
+        if($(window).width() < 992) {
+            $('.mainDish__photo-wrap .menu__item:odd').css('margin-left', '5rem');
+        }
+    }
+    mainDishPhotoFunction();
+
+    // при ресайзе перепроверяем
+    $(window).resize(function() {
+        mainDishPhotoFunction();
+    });
+
 
 
 
