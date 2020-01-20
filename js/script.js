@@ -120,7 +120,6 @@ $(document).ready(function () {
             600:{
                 items:3
             }
-
         }
     });
 

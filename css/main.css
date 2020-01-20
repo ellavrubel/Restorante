@@ -1237,7 +1237,7 @@ a.footer__link-item{
         font-size: 1.7rem;
     }
     .subtitle {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .welcome__title {
         font-size: 1.8rem;
@@ -1393,6 +1393,94 @@ a.footer__link-item{
         font-size: 7rem;
         top: -10%;
     }
+    .feedback__text {
+        padding-top: 3rem;
+        font-size: .7rem;
+    }
+    .feedback__rating {
+        padding: .4rem;
+        font-size: .7rem;
+    }
+    .owl-carousel.slider3 .owl-nav button.owl-prev {
+        left: -3%;
+    }
+    .owl-carousel.slider3 .owl-nav button.owl-next {
+        right: -3%;
+    }
+    .owl-carousel.slider3 .feedback__redMark img {
+        left: 35.6%;
+    }
+    .feedback {
+        margin-bottom: 0;
+    }
+    .letter__email .letter__form .letter__wrap .form-control-lg.letter__input{
+        height: 4rem;
+        width: 25rem;
+    }
+    .letter__subscribe{
+        flex: 0 0 25%;
+    }
+    .letter__photo {
+        height: 27.5rem;
+    }
+    .letter__wrap {
+        padding-top: 5%;
+    }
+    img.letter__telegram {
+        bottom: 10%;
+        right: 0;
+        height: 41%;
+    }
+    .blog__subtitle {
+        padding-top: 3.125rem;
+    }
+    .blog__arrow {
+        margin-bottom: 2.3rem;
+    }
+    .blog__stat i.seen {
+        padding-left: 3rem;
+    }
+    .blog__stat i {
+        padding-top: 8%;
+        padding-left: 4%;
+    }
+    .blog__third, .third{
+        padding-bottom:3rem;
+    }
+    .owl-carousel.slider4 .owl-nav button.owl-prev, .owl-carousel.slider4 .owl-nav button.owl-next {
+        top: 35%;
+    }
+    .slider4-wrap {
+        padding-bottom: 0;
+    }
+    .contact__subtitle {
+        padding-top: 2rem;
+    }
+    .contact__map {
+        margin-bottom: 3rem;
+    }
+    .contact__day{
+        font-size: var(--fontSize);
+    }
+    .contact__openHours {
+        flex: 0 0 35%;
+    }
+    .openHours__arrow {
+        padding-bottom: 1.5rem;
+    }
+    .contact__button {
+        padding-top: 1.8rem;
+    }
+    .contact__info-wrap {
+        padding-bottom: 3rem;
+    }
+    .footer__tag, .footer__instagram {
+        padding-top: 1rem;
+    }
+    img.footer__logo {
+        margin: .3rem auto 1.3rem;
+    }
+
 }
 
 
