@@ -137,30 +137,6 @@ $(document).ready(function () {
         mainDishPhotoFunction();
     });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     // Modal Windows
 
     $('a.LoginModal, a.header__list-item, a.header__list-item_btn').click(function (e) {
@@ -172,6 +148,47 @@ $(document).ready(function () {
             $(destinationPopup).removeClass('window');
         });
     });
+
+    // Menu Gamburger
+
+    if($(window).width() < 768) {
+        $('.menu__toggle').click(function (e) {
+            e.preventDefault();
+
+            $('.header__list').toggleClass('showMenu');
+        });
+
+        $('.header__list a').click(function (e) {
+            e.preventDefault();
+
+            $('.header__list').toggleClass('showMenu');
+        });
+
+    };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
