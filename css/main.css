@@ -42,6 +42,9 @@ a, a:hover, a:active{
 .menu__gamb{
     display: none;
 }
+.welcome__arrow-down{
+    display: none;
+}
 
 /* ----Header---- */
 
@@ -1558,6 +1561,114 @@ a.footer__link-item{
     }
     .header {
         height: 68vh;
+    }
+    .welcome__all-wrapper {
+        padding-top: 1.5rem;
+        padding-bottom: 3rem;
+    }
+    .welcome__arrow{
+        padding: 0;
+        margin: 0;
+    }
+    .welcome__text{
+        margin: 0;
+    }
+    .bookTable__redPlace{
+        margin: 0 auto;
+    }
+    .services__woman-wrapper{
+        display: none;
+    }
+    .services__text-wrapper {
+        flex: 0 0 100%;
+        padding-bottom: 1rem;
+    }
+    .welcome__arrow-down{
+        display: block;
+    }
+    .welcome__text-hide{
+        display: none;
+    }
+    .welcome__text-show{
+        display: block;
+    }
+    .futureItem__carousel-wrapper {
+        padding-bottom: 2.5rem;
+    }
+    .services__text{
+        padding: 0;
+    }
+    .futureItem__text_services{
+        text-align: center;
+    }
+    .services__arrow{
+        margin-bottom: .7rem;
+    }
+    .services__arrow img{
+        margin: 0 auto;
+    }
+    .services__description{
+        margin-bottom: 0;
+        font-size: var(--fontSize);
+    }
+    .services__block-title:before,
+    .services__block-title:after {
+        top: 2.2rem;
+        height: 2px;
+    }
+    .services__block-title:before {
+        right: -8.87%;
+    }
+    .delivery__card1, .delivery__card2, .delivery__card3 {
+        flex: 0 0 100%;
+        padding: 1.25rem 1rem 1rem;
+        margin-bottom: 2rem;
+    }
+    .delivery__card-wrapper {
+        padding-top: 2.6rem;
+    }
+    img.select, img.online, img.hand{
+        left: 10%;
+    }
+    .mainDish__photo-wrap img {
+        height: 60%;
+    }
+    .mainDish__btn {
+        padding-top: .5rem;
+    }
+    .menu__item{
+        margin-bottom: 1.125rem;
+    }
+    .owl-carousel.slider2 .owl-item img.human {
+        width: 50%;
+    }
+    .stuff__first, .stuff__second, .stuff__third{
+        border: none;
+    }
+    .event__video-btn img {
+        left: 28%;
+    }
+    .event__band-wrap {
+        left: -8%;
+    }
+    .event__time {
+        margin: 0 auto;
+    }
+    .event__discription {
+        padding-bottom: 1.5rem;
+    }
+    .event__time-title, .event__time-text {
+        padding-left: 0;
+    }
+    .event__time-text {
+        padding-top: 0;
+        padding-bottom: 2rem;
+    }
+    .event__time-title{
+        margin-bottom: 0;
+    }
+    .event__sponsors{
+        margin: 0 auto 1rem;
     }
 
 

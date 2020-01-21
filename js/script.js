@@ -19,6 +19,9 @@ $(document).ready(function () {
             0:{
                 items:1
             },
+            480:{
+                items:2
+            },
             600:{
                 items:3
             },
@@ -40,7 +43,6 @@ $(document).ready(function () {
                 $('.services__block-text').not($(this).next()).slideUp(500);
             }
                 $(this).toggleClass('active').next().slideToggle(500);
-
 
         });
 
@@ -126,16 +128,17 @@ $(document).ready(function () {
     // mainDish нечетные элементы
 
     function mainDishPhotoFunction() {
-        if($(window).width() < 992) {
+
+        if($(window).width() < 992 && $(window).width() > 768) {
             $('.mainDish__photo-wrap .menu__item:odd').css('margin-left', '5rem');
         }
     }
     mainDishPhotoFunction();
 
-    // при ресайзе перепроверяем
-    $(window).resize(function() {
+    // при ресайзе  и загрузке перепроверяем
+    $(window).on('load resize',mainDishPhotoFunction); {
         mainDishPhotoFunction();
-    });
+    };
 
 
 
@@ -156,7 +159,13 @@ $(document).ready(function () {
 
     };
 
+// Spoiler - welcome__text
 
+    $('.welcome__arrow-down i').click(function (e) {
+        e.preventDefault();
+
+        $('.welcome__text-hide').toggleClass('welcome__text-show').slideToggle(800);
+    });
 
 
 
