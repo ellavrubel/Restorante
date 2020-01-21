@@ -1646,7 +1646,9 @@ a.footer__link-item{
         border: none;
     }
     .event__video-btn img {
-        left: 28%;
+        left: 35%;
+        width: 30%;
+        top: 30%;
     }
     .event__band-wrap {
         left: -8%;
@@ -1670,7 +1672,89 @@ a.footer__link-item{
     .event__sponsors{
         margin: 0 auto 1rem;
     }
-
+    .event__button a {
+        padding: .5rem 1.4rem;
+    }
+    .quote {
+        font-size: 4rem;
+        top: -2%;
+    }
+    .slider3 .feedback__signature img{
+        width: 50%;
+        padding-bottom: 1.5rem;
+        margin: 0 auto;
+    }
+    .feedback__text{
+        margin-bottom: 0;
+    }
+    .owl-carousel.slider3 .feedback__redMark img {
+        left: 35%;
+    }
+    .feedback {
+        height: 60vh;
+    }
+    .slider3-wrap {
+        margin-top: 1.5rem;
+    }
+    .slider4 img.phone, .slider4 img.rest, .slider4 img.woman, .blog__text-wrap {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .blog__second{
+        box-shadow: none;
+    }
+    .blog__stat i {
+        padding-top: 5%;
+        padding-left: 10%;
+    }
+    .contact__day {
+        font-size: .7rem;
+    }
+    .contact__button {
+        padding-top: 1rem;
+    }
+    .footer__instagram, .footer__social, .footer__intro{
+        flex: 0 0 80%;
+    }
+    img.instagram__photo-item{
+        width: 10%;
+    }
+    .footer__social {
+        padding-top: 1rem;
+        justify-content: flex-end;
+    }
+    img.footer__logo {
+        margin: 0;
+    }
+    .footer__intro{
+        position: relative;
+    }
+    .intro__title{
+        position: absolute;
+        top: 10%; left: 40%;
+    }
+    .intro__text{
+        margin-bottom: 1rem;
+        line-height: unset;
+    }
+    .footer__tag{
+        padding-top: 0;
+        position: relative;
+        padding-bottom: 2rem;
+    }
+    .footer__tag-items{
+        position: absolute;
+        top: 0; left: 20%;
+    }
+    .footer__input{
+       display: none;
+    }
+    .footer__link a{
+        display: none;
+    }
+    .footer{
+        height: 30rem;
+    }
 
 }
 
