@@ -45,6 +45,9 @@ a, a:hover, a:active{
 .welcome__arrow-down{
     display: none;
 }
+.footer__gamb{
+    display: none;
+}
 
 /* ----Header---- */
 
@@ -1719,6 +1722,10 @@ a.footer__link-item{
     img.instagram__photo-item{
         width: 10%;
     }
+    .footer{
+        height: 30rem;
+        position: relative;
+    }
     .footer__social {
         padding-top: 1rem;
         justify-content: flex-end;
@@ -1749,15 +1756,22 @@ a.footer__link-item{
     .footer__input{
        display: none;
     }
-    .footer__link a{
+    .footer__link{
         display: none;
     }
-    .footer{
-        height: 30rem;
-    }
-    .usefull__link-show{
+    .footer__gamb{
         display: block;
+        position: absolute;
+        top: 5%;
+        right: 5%;
+    }
+    .footer__gamb i{
+        color: #000;
+        font-size: 1.5rem;
+    }
 
+    .usefull__link-itemShow{
+        display: flex;
     }
 
 }

@@ -171,15 +171,15 @@ $(document).ready(function () {
 // Usefull__link footer hamburger-menu
 
 
-    // if($(window).width() < 768) {
-    //     $('.usefull__link').click(function (e) {
-    //         e.preventDefault();
-    //
-    //         $('.usefull__link a').toggleClass('usefull__link-show');
-    //
-    //     });
-    //
-    // };
+    if($(window).width() < 768) {
+        $('.usefull__link').click(function (e) {
+            e.preventDefault();
+
+            $('.usefull__link-item').toggleClass('usefull__link-itemShow');
+
+        });
+
+    };
 
 
 
