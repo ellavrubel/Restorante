@@ -1755,6 +1755,10 @@ a.footer__link-item{
     .footer{
         height: 30rem;
     }
+    .usefull__link-show{
+        display: block;
+
+    }
 
 }
 

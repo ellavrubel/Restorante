@@ -157,6 +157,7 @@ $(document).ready(function () {
             $('.header__list').toggleClass('showMenu');
         });
 
+
     };
 
 // Spoiler - welcome__text
@@ -167,9 +168,18 @@ $(document).ready(function () {
         $('.welcome__text-hide').toggleClass('welcome__text-show').slideToggle(800);
     });
 
+// Usefull__link footer hamburger-menu
 
 
-
+    // if($(window).width() < 768) {
+    //     $('.usefull__link').click(function (e) {
+    //         e.preventDefault();
+    //
+    //         $('.usefull__link a').toggleClass('usefull__link-show');
+    //
+    //     });
+    //
+    // };
 
 
 
