@@ -184,10 +184,49 @@ $(document).ready(function () {
 
     };
 
+    //    Spoiler - Event
+
+        $('.event__arrow-down').click(function (e) {
+            e.preventDefault();
+
+            $('.event__sponsors-logo').addClass('.event__show').slideToggle(500);
+            $('img.logo-item').addClass(('logo-item__show'));
+
+        });
+
+        $('.event__arrow-down2').click(function (e) {
+            e.preventDefault();
+
+            $('.event__time-text').toggleClass('event__time-text__show').slideToggle(800);
+
+    });
 
 
 
-// Modal Windows
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // Modal Windows
 
     $('a.LoginModal, a.header__list-item, a.header__list-item_btn').click(function (e) {
         e.preventDefault();
