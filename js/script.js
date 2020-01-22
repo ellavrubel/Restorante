@@ -16,16 +16,10 @@ $(document).ready(function () {
         slideBy: 6,
         smartSpeed: 1200,
         responsive:{
-            0:{
-                items:1
+            0: {
+                items: 1
             },
-            480:{
-                items:2
-            },
-            600:{
-                items:3
-            },
-            775:{
+            778:{
                 items:4
             },
             1000:{
@@ -119,7 +113,7 @@ $(document).ready(function () {
             0:{
                 items:1
             },
-            600:{
+            768:{
                 items:3
             }
         }
@@ -156,11 +150,18 @@ $(document).ready(function () {
 
             $('.header__list').toggleClass('showMenu');
         });
+     };
 
 
-    };
+    //    Form-control изменение на form-control-sm
 
-// Spoiler - welcome__text
+     if($(window).width() < 768){
+
+         $('.welcome-form__wrapper input').removeClass('form-control').addClass
+         ('form-control-sm');
+     };
+
+    // Spoiler - welcome__text
 
     $('.welcome__arrow-down i').click(function (e) {
         e.preventDefault();
@@ -168,14 +169,16 @@ $(document).ready(function () {
         $('.welcome__text-hide').toggleClass('welcome__text-show').slideToggle(800);
     });
 
-// Usefull__link footer hamburger-menu
+    // Usefull__link footer hamburger-menu
 
 
     if($(window).width() < 768) {
-        $('.usefull__link').click(function (e) {
+        $('.footer__toggle').click(function (e) {
             e.preventDefault();
 
-            $('.usefull__link-item').toggleClass('usefull__link-itemShow');
+            $('.footer__link').toggleClass('usefull__link-itemShow');
+            $('.usefull__link').toggleClass('usefull__linkShow');
+            $('.footer__link-item').toggleClass('footer__link-itemShow');
 
         });
 

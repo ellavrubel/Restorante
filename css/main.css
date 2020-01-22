@@ -1172,10 +1172,10 @@ img.footer__logo{
     font-weight: bold;
     font-size: var(--fontSize);
 }
-span.usefull__link{
+.usefull__link{
     color: #00c5d2;
 }
-a.footer__link-item{
+.footer__link-item{
     color: #000;
     padding-left: 2.25rem;
 }
@@ -1208,7 +1208,7 @@ a.footer__link-item{
         padding: 1rem 1.4rem;
     }
     .feedback__title {
-        padding-top: 1.3rem;
+        padding-top: 4rem;
     }
     .feedback {
         height: 90vh;
@@ -1504,7 +1504,7 @@ a.footer__link-item{
         font-size: .7rem;
     }
     img.header__logo {
-        top: -160%;
+        top: -160%; left: 90%;
     }
     .header__list a{
         display: flex;
@@ -1575,9 +1575,24 @@ a.footer__link-item{
     }
     .welcome__text{
         margin: 0;
+        width: 80%;
+        font-size: .7rem;
     }
     .bookTable__redPlace{
         margin: 0 auto;
+    }
+    p.welcome__bookTable {
+        padding-top: 2rem;
+    }
+    .welcome-form__wrapper input{
+        width: 100%;
+    }
+    .bookTable__redPlace{
+        min-height: 20rem;
+    }
+
+    button.btn.btn-secondary.btn-sm.btn-block.login-btn {
+        margin-bottom: 0;
     }
     .services__woman-wrapper{
         display: none;
@@ -1601,8 +1616,21 @@ a.footer__link-item{
     .services__text{
         padding: 0;
     }
+    .futureItem{
+        padding-top: 1rem;
+    }
     .futureItem__text_services{
         text-align: center;
+    }
+    .owl-carousel.slider1 .owl-nav button.owl-prev{
+        left: 10%; top: 20%;
+    }
+    .owl-carousel.slider1 .owl-nav button.owl-next {
+        right: 10%; top: 20%;
+    }
+    .slider1 .item img{
+        width: 50%;
+        margin: 0 auto;
     }
     .services__arrow{
         margin-bottom: .7rem;
@@ -1644,6 +1672,12 @@ a.footer__link-item{
     }
     .owl-carousel.slider2 .owl-item img.human {
         width: 50%;
+    }
+    .owl-carousel.slider2 .owl-nav button.owl-next {
+        top: 25%;
+    }
+    .owl-carousel.slider2 .owl-nav button.owl-prev {
+        top: 27%;
     }
     .stuff__first, .stuff__second, .stuff__third{
         border: none;
@@ -1763,15 +1797,33 @@ a.footer__link-item{
         display: block;
         position: absolute;
         top: 5%;
-        right: 5%;
+        right: 10%;
     }
     .footer__gamb i{
         color: #000;
         font-size: 1.5rem;
     }
-
     .usefull__link-itemShow{
         display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 10%;
+        right: 10%;
+        border: 1px solid #fff;
+        padding: 1.5rem 4rem;
+        background-color: rgba(255, 192, 203, 0.87);
+
+    }
+    .footer__link-itemShow{
+        padding-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .usefull__linkShow{
+        display: block;
+        margin-bottom: .6rem;
+        font-size: 1.1rem;
+        color: #fff;
+
     }
 
 }
