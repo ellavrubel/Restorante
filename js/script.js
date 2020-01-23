@@ -132,7 +132,7 @@ $(document).ready(function () {
     // при ресайзе  и загрузке перепроверяем
     $(window).on('load resize',mainDishPhotoFunction); {
         mainDishPhotoFunction();
-    };
+    }
 
 
 
@@ -150,8 +150,7 @@ $(document).ready(function () {
 
             $('.header__list').toggleClass('showMenu');
         });
-     };
-
+     }
 
     //    Form-control изменение на form-control-sm
 
@@ -159,7 +158,7 @@ $(document).ready(function () {
 
          $('.welcome-form__wrapper input').removeClass('form-control').addClass
          ('form-control-sm');
-     };
+     }
 
     // Spoiler - welcome__text
 
@@ -182,7 +181,7 @@ $(document).ready(function () {
 
         });
 
-    };
+    }
 
     //    Spoiler - Event
 
@@ -201,6 +200,13 @@ $(document).ready(function () {
 
     });
 
+    //    Blog обертывание ссылкой заголовка
+
+    if ($(window).width() < 435) {
+        $('p.blog__title').wrap('<a class="blog__link" href="/"></a>').append('<span class="blog__dots">...</span>');
+
+
+    }
 
 
 

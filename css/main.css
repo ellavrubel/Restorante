@@ -2036,26 +2036,200 @@ img.footer__logo{
     .contact__info-wrap {
         padding-bottom: 1rem;
     }
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
 
 @media screen and (min-width: 320px) and (max-width: 435px){
-
+    .header__delivery {
+        margin: 0 .2rem .3rem 1rem;
+    }
+    .header__welcome{
+        margin: .4rem .4rem 0 7rem;
+    }
+    .title {
+        font-size: 1rem;
+    }
+    .subtitle {
+        font-size: .9rem;
+    }
+    .header__text-description {
+        width: 16rem;
+        line-height: 1;
+    }
+    .header__buttons a{
+        display: block;
+        width: 9rem;
+    }
+    a.btn_aboutus{
+        margin-bottom: .4rem;
+    }
+    a.btn_seemenu{
+        margin-left: 5.6rem;
+    }
+    .header__dots {
+        left: 45%;
+    }
+    .bookTable__redPlace {
+        width: 15.25rem;
+    }
+    .welcome {
+        margin-left: 2%;
+    }
+    .welcome__all-wrapper {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .services__block-title:before {
+        right: -11%;
+    }
+    .services__description {
+        font-size: .7rem;
+    }
+    .delivery {
+        height: 65vh;
+    }
+    .card1__text {
+        font-size: .7rem;
+    }
+    img.select, img.online, img.hand{
+        width: 20%;
+        top: -1rem;
+    }
+    .delivery__subtitle {
+        padding: .5rem 0;
+    }
+    .delivery__card-wrapper {
+        padding-top: 1.6rem;
+    }
+    .delivery__title {
+        padding-top: 1rem;
+    }
+    .owl-carousel.slider1 .owl-nav button.owl-next {
+        right: 3%;
+    }
+    .owl-carousel.slider1 .owl-nav button.owl-prev {
+        left: 3%;
+    }
+    .tabs__caption{
+        flex-wrap: wrap;
+    }
+    .mainDish__menu-wrapper {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+    .mainDish__menu-name a {
+        font-size: .7rem;
+    }
+    .mainDish__btn {
+        padding-bottom: .5rem;
+    }
+    .mainDish__btn a{
+        display: block;
+        text-align: center;
+        width: 9rem;
+        margin: 0 auto;
+    }
+    .stuff__carousel-wrap {
+        padding-top: .5rem;
+    }
+    .stuff__name {
+        font-size: 1rem;
+    }
+    .occupation {
+        font-size: 1rem;
+    }
+    .stuff__social-wrap {
+        padding-top: 0;
+    }
+    .event__band-wrap {
+        left: -15%;
+    }
+    .mainDish__subtitle{
+        padding-top: 1rem;
+    }
+    .event__discription {
+        font-size: .7rem;
+    }
+    /*.slider3-wrap {*/
+    /*    flex-direction: column-reverse;*/
+    /*}*/
+    .owl-carousel.slider3 .feedback__redMark img{
+        display: none;
+    }
+    .slider3 .item.item-img {
+        margin-right: 0;
+    }
+    .slider3 .slider3-wrap .item {
+        display: none;
+    }
+    .slider3-wrap {
+        margin-top: 0;
+    }
+    .feedback__title {
+        padding-top: 1rem;
+    }
+    .feedback {
+        height: 50vh;
+    }
+    .quote {
+        right: 42%;
+    }
+    .letter__subtitle {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+    .letter__text {
+        font-size: .7rem;
+    }
+    .letter__email .letter__form .letter__wrap .form-control-lg.letter__input {
+        width: 15em;
+    }
+    .letter__email {
+        padding-top: 0;
+    }
+    img.letter__telegram {
+        bottom: 18%;
+        height: 40%;
+    }
+    .letter__photo {
+        height: 15.5rem;
+    }
+    .slider4 img.phone, .slider4 img.rest, .slider4 img.woman, .blog__text-wrap {
+        width: 50%;
+    }
+    .blog__link, .blog__dots{
+        color: #22cdd8;
+        font-size: .7rem;
+    }
+    .blog__text{
+        display: none;
+    }
+    .blog__stat i.seen {
+        padding-left: 1rem;
+    }
+    .blog {
+        height: 45vh;
+    }
+    .contact__info{
+        flex-direction: column;
+    }
+    .openHours__subtitle, .contact__message-subtitle{
+        text-align: center;
+        color: var(--red-color);
+    }
+    .contact__button button{
+        margin: 0 auto;
+    }
+    .openHours__arrow img{
+        margin: 0 auto;
+    }
+    .contact__map {
+        margin-bottom: 1rem;
+    }
+    .footer__tag-item {
+        padding: .4rem .5rem;
+    }
 }
+
 
 
 
