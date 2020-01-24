@@ -1186,6 +1186,50 @@ img.footer__logo{
     padding-left: 2.25rem;
 }
 
+/* Кнопка наверх*/
+
+#button {
+    display: inline-block;
+    background-color: var(--red-color);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    visibility: hidden;
+}
+#button:hover {
+    cursor: pointer;
+}
+#button::after {
+    content: "\f077";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+#button.show{
+    visibility: visible;
+    transition: background-color .3s, opacity .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*----Media----*/
 
 @media screen and (max-device-height: 857px){
@@ -2149,9 +2193,6 @@ img.footer__logo{
     .event__discription {
         font-size: .7rem;
     }
-    /*.slider3-wrap {*/
-    /*    flex-direction: column-reverse;*/
-    /*}*/
     .owl-carousel.slider3 .feedback__redMark img{
         display: none;
     }
@@ -2345,6 +2386,22 @@ img.footer__logo{
 /*----------------------*/
 
 
+
+
+
+/**@media screen and(max-width: 992px) {*/
+/*    .popup {*/
+/*        top: 60%; !important;*/
+/*        transform: translate(-9%, -80%); !important;*/
+/*    }*/
+
+/*    h5.login__title {*/
+/*        font-size: 1rem; !important;*/
+/*        font-weight: bold; !important;*/
+/*        font-style: italic; !important;*/
+/*    }*/
+
+/*}*/
 
 
 

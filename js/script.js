@@ -204,32 +204,24 @@ $(document).ready(function () {
 
     if ($(window).width() < 435) {
         $('p.blog__title').wrap('<a class="blog__link" href="/"></a>').append('<span class="blog__dots">...</span>');
-
-
     }
 
+    // Плавный scroll наверх
 
+    var buttonUp = $('#button');
 
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 300){
+            buttonUp.addClass('show');
+        } else{
+            buttonUp.removeClass('show');
+        }
+    });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    $('#button').click(function (e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop:0}, 2000);
+    });
 
 
     // Modal Windows
