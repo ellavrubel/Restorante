@@ -220,8 +220,24 @@ $(document).ready(function () {
 
     $('#button').click(function (e) {
         e.preventDefault();
-        $('html, body').animate({scrollTop:0}, 2000);
+        $('html, body').animate({scrollTop:0}, 5000);
     });
+
+
+    // Плавная прокрутка
+
+    $('a.header__list-item').click(function () {
+
+        var elementClick = $(this).attr('href');
+        var destination = $(elementClick).offset().top;
+
+        jQuery('html:not(:animated),body:not(:animated)').animate({
+            scrollTop: destination}, 3200);
+
+        return false;
+
+    });
+
 
 
     // Modal Windows
