@@ -67,11 +67,9 @@ a, a:hover, a:active{
 }
 .welcome-wrapper{
     padding: var(--fontSize) 0 1.5rem;
-    /*height: 4rem;*/
 }
 .welcome{
     margin-left: 10%;
-    /*padding-bottom: 6rem;*/
 }
 .header__welcome{
     color: #fff;
@@ -381,7 +379,6 @@ input[type="text"]::placeholder {
 .owl-carousel .owl-nav button.owl-prev:active{
     background: transparent;
     outline-style: none;
-
 }
 
 /*-----Services----*/
